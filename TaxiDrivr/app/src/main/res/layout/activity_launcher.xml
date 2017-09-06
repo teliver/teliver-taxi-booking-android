@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Taxi Driver"
+        app:titleTextColor="@color/colorWhite">
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_launcher" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgLogo"
+            android:layout_marginBottom="5dp"
+            android:padding="20dp"
+            android:text="Service Availability"
+            android:textColor="@color/colorBlack" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/availabilitySwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/imgLogo"
+            android:padding="20dp"
+            app:theme="@style/SwitchCompat"/>
+
+
+        <EditText
+            android:id="@+id/edtPushMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/availabilitySwitch"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:enabled="false"
+            android:hint="Enter your message here"
+            android:inputType="textNoSuggestions"
+            android:padding="10dp"
+            android:textColorHint="@color/colorHint"
+            android:textSize="13sp" />
+
+
+        <View
+            android:id="@+id/viewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorHint"
+            android:layout_below="@id/edtPushMessage"
+            android:padding="10dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txtSendPush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:text="SEND PUSH"
+        android:textColor="@color/colorHint"
+        android:textSize="16sp" />
+
+
+
+
+
+</LinearLayout>
+

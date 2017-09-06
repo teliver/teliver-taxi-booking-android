@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaxiCustmr</string>
+    <string name="txtNoData">no taxi right here</string>
+    <string name="txtTrackTaxi">Track your Taxi</string>
+    <string name="txtRideNow">Ride Now</string>
+    <string name="txtRideLater">Ride Later</string>
+</resources>
