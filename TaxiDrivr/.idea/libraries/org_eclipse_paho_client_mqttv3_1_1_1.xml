@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.eclipse.paho.client.mqttv3-1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.1.1/96b7efe48dd56796383858b78d6eb9745683e8e6/org.eclipse.paho.client.mqttv3-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.1.1/89d089edf77f77c610cabd95aa0e01752653985d/org.eclipse.paho.client.mqttv3-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

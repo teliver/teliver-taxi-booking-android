@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/selva/.android/build-cache/8c7aa1a0fab74d20c84b5ba59efc1bf0cfd1de54/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/selva/.android/build-cache/ff6bd2082ec38c78014b61ed8e4228a92701811c/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiCustmr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

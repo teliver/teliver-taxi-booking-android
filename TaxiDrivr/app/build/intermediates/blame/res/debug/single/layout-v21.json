@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiDrivr/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/selva/.android/build-cache/9b293454882cd5d9225cdf8562218f5c8eb96903/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/selva/.android/build-cache/b1230fb7f414e9257169ee2c90ed9a37f0adba96/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:10:5-34:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/selva/.android/build-cache/967241d69f29af995cc81defe78fa3c5de32e12f/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/selva/.android/build-cache/71fea302eb24b715bab36bc350456319885b37ea/output/AndroidManifest.xml:26:5-20
+MERGED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:22:5-43:19
+MERGED from [com.android.support:design:25.3.1] /home/selva/.android/build-cache/e94c11fef72e21aef0ffefc8b95372b4cd16a8eb/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/selva/.android/build-cache/c2a3523bff6b7c3bb2e2dedc84c7a2e9c3c956d3/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/selva/.android/build-cache/a795722bb1b18c1394ea2757f1d359804b4c4889/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/selva/.android/build-cache/efb68e9377e33a4e565c27de8bc0764f85294947/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/selva/.android/build-cache/68825fb43027097f985391747c3d91a5493e2406/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/selva/.android/build-cache/9b293454882cd5d9225cdf8562218f5c8eb96903/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/selva/.android/build-cache/bd24caaf31524208d866aad5fd2f4dd26d6e7fa9/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/selva/.android/build-cache/86c0adb5bd4e8846a072c4f759b1cd3a169e6277/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] /home/selva/.android/build-cache/b4c19300a383c31ead443bc571709b38bd032602/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/selva/.android/build-cache/b1230fb7f414e9257169ee2c90ed9a37f0adba96/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /home/selva/.android/build-cache/258ebacf480720b076ac6dc96d0570687877020b/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/selva/.android/build-cache/1ff1547560ce2ef0eedd07ec8003dc4b737c9c37/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/selva/.android/build-cache/880354fff62b212f04c6f268a08e6e70c5b5470f/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/selva/.android/build-cache/400c27201d7683de14078d2e5cfddf743a2ab732/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/selva/.android/build-cache/51dda3e6760f2eab03f503bf8e42291eb94b75ac/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/selva/.android/build-cache/22db6d595a3ce1515943b603d8cb57f7c2ae999e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/selva/.android/build-cache/c1f788c7c86409ad7294780f7360b247acf54c74/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/selva/.android/build-cache/05408530109776b08ead6f6e087130759a28b5dd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/selva/.android/build-cache/2ccdd0cf1ed2bc470919aecb6975bebe53e12081/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:16:9-35
+	android:roundIcon
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:15:9-54
+	android:allowBackup
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:11:9-36
+activity#com.taxidrivr.ActivityLauncher
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:screenOrientation
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:20:13-49
+	android:windowSoftInputMode
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:19:13-54
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:18:19-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:24:27-74
+service#com.taxidrivr.FirebaseMessaging
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:28:9-32:19
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:28:18-51
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:29:13-31:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml:30:25-75
+uses-sdk
+INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/selva/.android/build-cache/967241d69f29af995cc81defe78fa3c5de32e12f/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/selva/.android/build-cache/71fea302eb24b715bab36bc350456319885b37ea/output/AndroidManifest.xml:20:5-43
+MERGED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /home/selva/.android/build-cache/e94c11fef72e21aef0ffefc8b95372b4cd16a8eb/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/selva/.android/build-cache/c2a3523bff6b7c3bb2e2dedc84c7a2e9c3c956d3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/selva/.android/build-cache/a795722bb1b18c1394ea2757f1d359804b4c4889/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/selva/.android/build-cache/f6ae07c8cf2bc4cb7f9bf61857732d758791d464/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/selva/.android/build-cache/efb68e9377e33a4e565c27de8bc0764f85294947/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.1] /home/selva/.android/build-cache/e9c219819d23eca814245715939a39e5ff0eeb0a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/selva/.android/build-cache/68825fb43027097f985391747c3d91a5493e2406/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/selva/.android/build-cache/9b293454882cd5d9225cdf8562218f5c8eb96903/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/selva/.android/build-cache/bd24caaf31524208d866aad5fd2f4dd26d6e7fa9/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/selva/.android/build-cache/86c0adb5bd4e8846a072c4f759b1cd3a169e6277/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] /home/selva/.android/build-cache/b4c19300a383c31ead443bc571709b38bd032602/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/selva/.android/build-cache/b1230fb7f414e9257169ee2c90ed9a37f0adba96/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /home/selva/.android/build-cache/258ebacf480720b076ac6dc96d0570687877020b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/selva/.android/build-cache/1ff1547560ce2ef0eedd07ec8003dc4b737c9c37/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/selva/.android/build-cache/880354fff62b212f04c6f268a08e6e70c5b5470f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /home/selva/.android/build-cache/400c27201d7683de14078d2e5cfddf743a2ab732/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/selva/.android/build-cache/51dda3e6760f2eab03f503bf8e42291eb94b75ac/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/selva/.android/build-cache/22db6d595a3ce1515943b603d8cb57f7c2ae999e/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/selva/.android/build-cache/c1f788c7c86409ad7294780f7360b247acf54c74/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/selva/.android/build-cache/05408530109776b08ead6f6e087130759a28b5dd/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/selva/.android/build-cache/2ccdd0cf1ed2bc470919aecb6975bebe53e12081/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/selva/.android/build-cache/e94c11fef72e21aef0ffefc8b95372b4cd16a8eb/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+		INJECTED from /home/selva/Documents/UseCaseApp/TaxiDrivr/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] /home/selva/.android/build-cache/71fea302eb24b715bab36bc350456319885b37ea/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] /home/selva/.android/build-cache/e94c11fef72e21aef0ffefc8b95372b4cd16a8eb/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/selva/.android/build-cache/db998e9f73213fdbfdc946c6ea3b08cea409793c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/selva/.android/build-cache/c2a3523bff6b7c3bb2e2dedc84c7a2e9c3c956d3/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/selva/.android/build-cache/a795722bb1b18c1394ea2757f1d359804b4c4889/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/selva/.android/build-cache/f6ae07c8cf2bc4cb7f9bf61857732d758791d464/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/selva/.android/build-cache/efb68e9377e33a4e565c27de8bc0764f85294947/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/selva/.android/build-cache/400c27201d7683de14078d2e5cfddf743a2ab732/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/selva/.android/build-cache/51dda3e6760f2eab03f503bf8e42291eb94b75ac/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/selva/.android/build-cache/22db6d595a3ce1515943b603d8cb57f7c2ae999e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/selva/.android/build-cache/c1f788c7c86409ad7294780f7360b247acf54c74/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/selva/.android/build-cache/05408530109776b08ead6f6e087130759a28b5dd/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/selva/.android/build-cache/2ccdd0cf1ed2bc470919aecb6975bebe53e12081/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] /home/selva/.android/build-cache/71fea302eb24b715bab36bc350456319885b37ea/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] /home/selva/.android/build-cache/71fea302eb24b715bab36bc350456319885b37ea/output/AndroidManifest.xml:23:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/selva/.android/build-cache/9b293454882cd5d9225cdf8562218f5c8eb96903/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/selva/.android/build-cache/b1230fb7f414e9257169ee2c90ed9a37f0adba96/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:13:22-73
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:15:22-95
+uses-feature#android.hardware.location.gps
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:17:19-63
+uses-feature#0x00020000
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:18:5-20:35
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/selva/.android/build-cache/9b293454882cd5d9225cdf8562218f5c8eb96903/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:19:9-41
+	android:required
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:20:9-32
+uses-library#com.google.android.maps
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:25:9-64
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:25:23-61
+activity#com.teliver.sdk.util.TeliverMap
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:27:9-68
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:27:19-65
+receiver#com.teliver.sdk.util.TripAlarm
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:29:9-67
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:29:19-64
+service#com.teliver.sdk.util.TService
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:31:9-65
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:31:18-62
+meta-data#com.google.android.gms.version
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:33:9-35:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/selva/.android/build-cache/880354fff62b212f04c6f268a08e6e70c5b5470f/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:35:13-66
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:34:13-58
+service#org.eclipse.paho.android.service.MqttService
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:37:9-80
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:37:18-77
+service#com.teliver.sdk.core.MyFirebaseIntentService
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:38:9-42:19
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:38:18-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:39:13-41:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:40:17-80
+	android:name
+		ADDED from [com.teliver.sdk:TeliverSdk:1.0.12] /home/selva/.android/build-cache/44cd1ed9149a771191f0e57b31cc2b7aabd94fbf/output/AndroidManifest.xml:40:25-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/selva/.android/build-cache/68825fb43027097f985391747c3d91a5493e2406/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/selva/.android/build-cache/68825fb43027097f985391747c3d91a5493e2406/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/selva/.android/build-cache/68825fb43027097f985391747c3d91a5493e2406/output/AndroidManifest.xml:23:18-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/selva/.android/build-cache/86c0adb5bd4e8846a072c4f759b1cd3a169e6277/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/selva/.android/build-cache/86c0adb5bd4e8846a072c4f759b1cd3a169e6277/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/selva/.android/build-cache/86c0adb5bd4e8846a072c4f759b1cd3a169e6277/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/selva/.android/build-cache/86c0adb5bd4e8846a072c4f759b1cd3a169e6277/output/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/selva/.android/build-cache/b1230fb7f414e9257169ee2c90ed9a37f0adba96/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/selva/.android/build-cache/b1230fb7f414e9257169ee2c90ed9a37f0adba96/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/selva/.android/build-cache/b1230fb7f414e9257169ee2c90ed9a37f0adba96/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/selva/.android/build-cache/f27521fc29731074b5a9446b324d75f231b9a639/output/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/selva/.android/build-cache/f652aaf16826e7e73903e205b9318489638b9f02/output/AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.4] /home/selva/.android/build-cache/258ebacf480720b076ac6dc96d0570687877020b/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/selva/.android/build-cache/258ebacf480720b076ac6dc96d0570687877020b/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/selva/.android/build-cache/258ebacf480720b076ac6dc96d0570687877020b/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/selva/.android/build-cache/258ebacf480720b076ac6dc96d0570687877020b/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/selva/.android/build-cache/258ebacf480720b076ac6dc96d0570687877020b/output/AndroidManifest.xml:6:79-143

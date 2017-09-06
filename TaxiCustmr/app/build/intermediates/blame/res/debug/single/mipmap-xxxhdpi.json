@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/selva/Documents/UseCaseApp/TaxiCustmr/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiCustmr/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/selva/Documents/android-projects/TaxiCustmr/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/selva/Documents/android-projects/TaxiCustmr/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/selva/Documents/android-projects/TaxiCustmr/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

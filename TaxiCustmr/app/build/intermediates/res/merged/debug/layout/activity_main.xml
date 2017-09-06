@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rooView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHint"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@android:color/transparent"
+        app:title="Tracking Details"
+        app:titleTextColor="@color/colorWhite"
+        android:visibility="gone">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:onClick="showToast">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:background="@color/colorWhite">
+
+
+            <TextView
+                style="@style/TextViewVehicle"
+                android:drawableTop="@drawable/ic_auto"
+                android:text="Auto" />
+
+            <TextView
+                style="@style/TextViewVehicle"
+                android:drawableTop="@drawable/ic_taxi"
+                android:text="Micro" />
+
+            <TextView
+                style="@style/TextViewVehicle"
+                android:drawableTop="@drawable/ic_share_car"
+                android:text="Mini" />
+
+            <TextView
+                style="@style/TextViewVehicle"
+                android:drawableTop="@drawable/ic_prime"
+                android:text="Prime" />
+
+            <TextView
+                style="@style/TextViewVehicle"
+                android:drawableTop="@drawable/ic_rentals"
+                android:text="Rentals" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="@string/txtRideNow"
+                android:onClick="showToast"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="@string/txtRideLater"
+                android:onClick="showToast"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
