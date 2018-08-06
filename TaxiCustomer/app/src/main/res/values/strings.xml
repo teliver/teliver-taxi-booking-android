@@ -4,4 +4,5 @@
     <string name="txtTrackTaxi">Track your Taxi</string>
     <string name="txtRideNow">Ride Now</string>
     <string name="txtRideLater">Ride Later</string>
+    <string name="map_api_key">your_map_key</string>
 </resources>
