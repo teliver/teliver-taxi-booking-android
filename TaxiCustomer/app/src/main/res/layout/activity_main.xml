@@ -7,7 +7,7 @@
     android:background="@color/colorHint"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
@@ -16,7 +16,7 @@
         app:titleTextColor="@color/colorWhite"
         android:visibility="gone">
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
 
     <fragment

@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
@@ -15,7 +15,7 @@
         app:titleTextColor="@color/colorWhite">
 
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
 
     <RelativeLayout
@@ -25,14 +25,13 @@
 
         <ImageView
             android:id="@+id/imgLogo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="60dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/ic_launcher" />
-
+            android:src="@drawable/logo_only" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,7 +42,7 @@
             android:text="Service Availability"
             android:textColor="@color/colorBlack" />
 
-        <android.support.v7.widget.SwitchCompat
+        <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/availabilitySwitch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

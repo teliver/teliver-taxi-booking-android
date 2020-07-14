@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TaxiDriver.iml" filepath="$PROJECT_DIR$/TaxiDriver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TaxiDriver/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/teliver-taxi-booking-android-TaxiDriver.iml" filepath="$PROJECT_DIR$/.idea/modules/teliver-taxi-booking-android-TaxiDriver.iml" group="TaxiDriver" />
     </modules>
   </component>
 </project>

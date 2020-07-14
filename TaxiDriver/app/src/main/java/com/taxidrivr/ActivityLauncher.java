@@ -1,17 +1,13 @@
 package com.taxidrivr;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.pm.PackageManager;
+import android.content.IntentSender;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.SwitchCompat;
-import android.support.v7.widget.Toolbar;
+import android.os.Looper;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -19,15 +15,24 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
+
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.common.api.Status;
+import com.google.android.gms.common.api.ResolvableApiException;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.LocationSettingsRequest;
-import com.google.android.gms.location.LocationSettingsResult;
-import com.google.android.gms.location.LocationSettingsStatusCodes;
+import com.google.android.gms.location.LocationSettingsResponse;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.teliver.sdk.core.TLog;
 import com.teliver.sdk.core.Teliver;
 import com.teliver.sdk.core.TripListener;
@@ -39,14 +44,19 @@ import com.teliver.sdk.models.UserBuilder;
 import java.util.Calendar;
 
 @SuppressWarnings("ALL")
-public class ActivityLauncher extends AppCompatActivity {
+public class ActivityLauncher extends AppCompatActivity implements OnSuccessListener<Location>{
 
+    private static final int GPS_REQ = 124;
     private boolean inCurrentTrip;
 
     private String driverName = "driver_xolo";
 
     private GoogleApiClient googleApiClient;
 
+    @Override
+    public void onSuccess(Location location) {
+        Log.e("onSuccess::",location.getLatitude()+"");
+    }
 
     private enum type {
         trip,
@@ -173,9 +183,9 @@ public class ActivityLauncher extends AppCompatActivity {
             }
         });
 
-        if (Application.checkPermission(this))
-            checkGps();
-
+        if (Application.checkLPermission(this))
+            enableGPS(this);
+        
         txtSendPush.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -194,35 +204,6 @@ public class ActivityLauncher extends AppCompatActivity {
     }
 
 
-    private void checkGps() {
-        GoogleApiClient googleApiClient = new GoogleApiClient.Builder(this)
-                .addApi(LocationServices.API)
-                .build();
-        googleApiClient.connect();
-
-        LocationRequest locationRequest = LocationRequest.create();
-        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-
-        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
-                .addLocationRequest(locationRequest);
-        builder.setAlwaysShow(true);
-
-        PendingResult<LocationSettingsResult> result = LocationServices.SettingsApi.checkLocationSettings(googleApiClient, builder.build());
-        result.setResultCallback(new ResultCallback<LocationSettingsResult>() {
-            @Override
-            public void onResult(@NonNull LocationSettingsResult locationSettingsResult) {
-                Status status = locationSettingsResult.getStatus();
-                if (status.getStatusCode() == LocationSettingsStatusCodes.RESOLUTION_REQUIRED) {
-                    try {
-                        status.startResolutionForResult(ActivityLauncher.this, 3);
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        });
-    }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -235,12 +216,12 @@ public class ActivityLauncher extends AppCompatActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode) {
-            case 4:
-                if (grantResults[0] != PackageManager.PERMISSION_GRANTED && requestCode == 4)
-                    finish();
-                else checkGps();
-                break;
+        if (requestCode==115){
+            if (!Application.isPermissionOk(grantResults)){
+                Toast.makeText(this,"Location permission denied",Toast.LENGTH_SHORT).show();
+                finish();
+            }
+            else enableGPS(this);
         }
     }
 
@@ -258,4 +239,63 @@ public class ActivityLauncher extends AppCompatActivity {
         //  Based on the location values show the cabs near to the customer, you can do that by handpicking those trackingId's
 // near to the customer and starting the tracking by multiple trackingId's, so that the user can view and track his nearby cabs......
     }
+
+
+    private void enableGPS(OnSuccessListener<Location> listener) {
+        try {
+            final FusedLocationProviderClient client = LocationServices
+                    .getFusedLocationProviderClient(this);
+            final LocationRequest locationRequest = getLocationReq();
+            LocationSettingsRequest request = new LocationSettingsRequest
+                    .Builder().addLocationRequest(locationRequest)
+                    .setAlwaysShow(true).build();
+            Task<LocationSettingsResponse> task = LocationServices.getSettingsClient(
+                    this).checkLocationSettings(request);
+            task.addOnSuccessListener(locationSettingsResponse ->
+                    getMyLocation(client, locationRequest, listener));
+            task.addOnFailureListener(e -> {
+                if (e instanceof ResolvableApiException) {
+                    try {
+                        ResolvableApiException resolvable = (ResolvableApiException) e;
+                        resolvable.startResolutionForResult(this, GPS_REQ);
+                    } catch (IntentSender.SendIntentException sendEx) {
+                        listener.onSuccess(null);
+                    }
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @SuppressLint("MissingPermission")
+    private static void getMyLocation(final FusedLocationProviderClient client
+            , LocationRequest locationRequest, final OnSuccessListener<Location> listener) {
+        try {
+            client.requestLocationUpdates(locationRequest, new LocationCallback() {
+                @Override
+                public void onLocationResult(LocationResult locationResult) {
+                    if (locationResult == null)
+                        Log.d("TaxiDriver::","result null");
+                    else {
+                        Location location = locationResult.getLastLocation();
+                        client.removeLocationUpdates(this);
+                        listener.onSuccess(location);
+                    }
+                }
+            }, Looper.myLooper());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    private LocationRequest getLocationReq() {
+        LocationRequest locationRequest = LocationRequest.create();
+        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        locationRequest.setInterval(1000);
+        locationRequest.setFastestInterval(2000);
+        return locationRequest;
+    }
+
 }
